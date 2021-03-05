@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".activities.MainActivity">
+
+    <fragment
+        android:id="@+id/fragmentMenu"
+        android:name="com.misael_redrejo.memorymisaelredrejo.fragments.MenuFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        tools:layout="@layout/fragment_menu"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearPlay"
+        android:layout_width="0dp"
+        android:layout_weight="50"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <fragment
+            android:id="@+id/fragmentPlay"
+            android:name="com.misael_redrejo.memorymisaelredrejo.fragments.PlayFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_play"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearScores"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <fragment
+            android:id="@+id/fragmentScores"
+            android:name="com.misael_redrejo.memorymisaelredrejo.fragments.ScoresFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_scores"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearCredits"
+        android:layout_width="0dp"
+        android:layout_weight="50"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <fragment
+            android:id="@+id/fragmentCredits"
+            android:name="com.misael_redrejo.memorymisaelredrejo.fragments.CreditsFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_credits"/>
+    </LinearLayout>
+
+</LinearLayout>

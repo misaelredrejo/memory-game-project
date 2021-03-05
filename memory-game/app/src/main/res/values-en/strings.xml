@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Memory Game Misael</string>
+    <string name="jugar">Play</string>
+    <string name="puntuaciones">Scores</string>
+    <string name="creditos">Credits</string>
+    <string name="autor">Misael Redrejo</string>
+    <string name="memory">Memory</string>
+    <string name="anio">2020-2021</string>
+    <string name="tiempo">00:00:00</string>
+    <string name="tiempoStr">Time</string>
+    <string name="nombre">Name</string>
+    <string name="puntuacion">Score</string>
+    <string name="puntuacion_de">Score for</string>
+    <string name="aniadida">added correctly.</string>
+    <string name="guardar">Save</string>
+    <string name="cancelar">Cancel</string>
+    <string name="error_nombre">NAME ERROR</string>
+    <string name="error_nombre_mensaje">You must introduce a correct name (Min 1 character, max 15)</string>
+    <string name="guardar_puntuacion">Save score</string>
+    <string name="terminar">You finished in </string>
+    <string name="con">with</string>
+    <string name="puntos">points.</string>
+    <string name="introducir_nombre">Introduce your name to save it in the ranking:</string>
+    <string name="error_adding">Error adding data</string>
+    <string name="error_getting">Error getting data</string>
+
+    <string name="facil">Easy</string>
+    <string name="dificil">Hard</string>
+    <string-array name="dificulties">
+        <item>EASY</item>
+        <item>HARD</item>
+    </string-array>
+
+    <string name="title_activity_scores">ScoresActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
